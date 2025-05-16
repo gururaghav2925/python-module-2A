@@ -11,7 +11,21 @@ To write a Python program that computes the factorial of a given number.
    - Multiply `fact` by each number from 1 to the input number.
 4. Print the final result.
 5. End the program.
+## Program 
 
+```python
+a=int(input())
+fact=1
+if a<0:
+    print("Factorial does not exist for negative number")
+elif a==0:
+    print("the factorial of 0 is 1")
+else:
+    for i in range(1,a+1):
+      fact=fact*i
+    print("Factorial of the given number",a,"is",fact)
+
+```
 ## Output
 
 ![image](https://github.com/user-attachments/assets/09e9d414-24db-4542-9943-c948bf1b65b0)
